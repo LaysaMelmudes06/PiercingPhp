@@ -1,0 +1,190 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.prin {
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 100px;
+    height: 100px;
+    font-size: 18px;
+    position: fixed;
+    /* box-shadow: 0px 5px 70px rgb(25, 22, 70); */
+    border-bottom: solid white 1px;
+    font-family: monospace;
+}
+.prin{
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 100%;
+}
+.logo1 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    list-style: none;
+    font-size: 30px;
+    display: flex;    
+
+}
+li{
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+
+}
+li:hover{
+    color: rgb(0, 0, 0); 
+    border-bottom: 2px solid rgb(96, 255, 207); 
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+
+.item{
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;    
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.princontato{
+    /* height: 45rem; */
+    width: 100%;
+    /* background-color: rgba(173, 247, 224, 0.534);  */
+    border-radius: 20px;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2);
+}
+
+/**/
+
+
+
+.contato{
+    display: flex;
+    height: 70rem;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+.form-rounded-right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.prinForm{
+    border-radius: 20px;
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, 0.2);
+    display: flex;
+    background-color: #d3fbee;
+    font-family: monospace;
+}
+.contatudoForm{
+    width: 40%;
+    text-align: center;
+    color: white; 
+    margin-top: 2%;
+    margin-left: 5%;
+    letter-spacing: 5px;
+    
+}
+
+.redesFormPrin{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloContForm{
+    font-size: 50px;
+    margin-top: 9%;
+    color: black;
+}
+.tituForm{
+    font-size: 5vh;
+    font-weight: 610;
+}
+label{
+    font-size: 30px;
+}
+.imgForm{
+    margin: 0;
+}
+
+.botaoForm{
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    background-color: rgba(173, 247, 224, 0.534);
+    font-size: 30px;
+
+}
+textarea{
+    height: 70px;
+    border-radius: 10px;
+}
+.linhaform{
+    background-color: rgb(175, 175, 175);
+}
+::placeholder{
+    font-style: italic;
+    font-size: 15px;
+    
+}
+input{
+   border-top: white solid 1px;
+    border-right: white solid 1px;
+    border-left: white solid 1px;
+    border-bottom: gray solid 0.5px;
+    /*border-radius: 40px;
+    height: 50px;*/
+
+    width: 100%;
+}
+
+.floating-label {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.floating-label input{
+    height: calc(1.5em + 0.75rem + 10px);
+}
+  
+.floating-label label {
+    position: absolute;
+    background: #fff;
+    top: calc(1.5em + 0.75rem + -22px);
+    left: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all 0.1s ease-in-out;
+    pointer-events: none;
+    padding: 0px 5px;
+    margin-left: 5px;
+}
+  
+.floating-label input:not(:placeholder-shown) + label, .floating-label input:focus + label {
+    transform: translateY(calc(1.5em + 0.75rem + -56px)) scale(0.8);
+    color: #999;
+}
+
+@media(max-width: 770px){
+    .tituloContForm{
+        font-size: 30px!important;
+    }
+    .tituForm{
+        font-size: 30px!important;
+    }
+}
